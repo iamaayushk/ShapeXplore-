@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShapeXplore</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+   
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <h2 class="logo" id="home"><a href="#">Shape<span>Xplore </span></a></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#workout-plans">Workout Plans</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button class="header" type="button">Join Me</button>
+    
+        </nav>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-left"><p>
+            <h1>Sweat, Smile, Repeat </h1><br>
+           <h3> Train Like a Champion</h3>
+        </div>
+        <div class="hero-right"></div>
+    </section>
+
+    <!-- Section 1 -->
+    <section class="section-1"  >
+        <div class="section-1-heading">
+            <h1>Strength Workouts</h1>
+        </div>
+    
+        <div class="section-content">
+            <div class="section-left">
+                <a href="https://www.youtube.com/watch?v=kRX2NfqM90g" target="_blank">
+                <img src="Photos/squats.jpg" alt="Squats Image">
+                <p>Weighted  Squats</p>
+            </a>
+            
+            </div>
+            <div class="section-middle">
+                <a href="https://www.example.com/squats-video" target="_blank">
+                <img src="Photos/deadlift.jpg" alt="Deadlifts Image">
+            <p>Deadlift</p></a>
+            </div>
+            <div class="section-right">
+                <a href="https://www.example.com/squats-video" target="_blank">
+                <img src="Photos/benchpress.jpg" alt="Bench Press Image">
+            <p>Bench Press</p></a>
+            </div>
+        </div>
+    </section>
+    <!-- Section 2 -->
+    <section class="section-2" id="workout-plans">
+        <!-- Section Heading -->
+        <div class="section-2-heading">
+            <h1>Workout Plans</h1>
+        </div>
+    
+        <!-- Workout Plan Types -->
+        <div class="workout-plan-types">
+            <!-- Beginner Plan -->
+            <div class="plan beginner-plan">
+                <h2>Beginner Plan</h2>
+                <p>This plan is ideal for those who are new to working out. It includes simple exercises like bodyweight squats, push-ups, and planks to help you build foundational strength.</p>
+                <a href="https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/complete-mf-beginners-training-guide-plan/" target="_blank">View Beginner Plan</a>
+            </div>
+    
+            <!-- Intermediate Plan -->
+            <div class="plan intermediate-plan">
+                <h2>Intermediate Plan</h2>
+                <p>If you have some workout experience, this plan will challenge you with more reps, weights, and high-intensity intervals (HIIT).</p>
+                <a href="https://www.muscleandstrength.com/workouts/the-next-step-6-week-intermediate-workout-program" target="_blank">View Intermediate Plan</a> 
+            </div>
+    
+            <!-- Advanced Plan -->
+            <div class="plan advanced-plan">
+                <h2>Advanced Plan</h2>
+                <p>For seasoned athletes or fitness enthusiasts, the advanced plan focuses on heavy lifting, complex movements, and endurance training.</p>
+                <a href="https://www.muscleandstrength.com/workouts/advanced-bodybuilder-workout.html" target="_blank">View Advanced Plan</a> 
+            </div>
+        </div>
+    </section>
+
+    <section class="section-3" id="services">
+        <div class="section-3-content">
+        <div class="section-3-left">
+            <img src="Photos/right-arrow_10023726.png">
+            <h3>PERSONAL TRAINING</h3>
+            <div class="section-3-left-box">
+                <h1>We Offer</h1>
+                <p>Free Trial Sessions for 1 week</p>
+            </div>
+        </div>
+            <div class="section-3-middle">
+                <img src="Photos/trainer.webp">
+            </div>
+            <div class="section-3-right">
+                <p>Ready to take the first step towards your fitness journey? Book your first personal training session with us today! 
+                    <br>
+                    <br>Call us now to reserve your spot and start working towards your goals with expert guidance and support.</p>
+                <button class="training" type="button"> Call Now</button>
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="signup-section" id="contact">
+        <div class="signup-container">
+            <div class="signup-content">
+                <!-- Image on the left -->
+                <div class="signup-image">
+                    <img src="Photos/signup.jpg" alt="Fitness Sign-Up" />
+                </div>
+    
+                <!-- Sign-Up Form on the right -->
+                <div class="signup-form-container">
+                    <h2>Join Us Today!</h2>
+                    <p>Sign up to get personalized workout plans, free trial sessions, and expert tips!</p>
+                    
+                    <form class="signup-form" action="/submit_signup" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Enter a password" required>
+                        </div>
+                        
+                        <button type="submit" class="signup-btn">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About Us Section -->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>We are dedicated to providing the best workout plans, personal training, and fitness advice to help you achieve your fitness goals.</p>
+            </div>
+            
+            <!-- Quick Links Section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workout-plans">Workout Plans</a></li>
+                    <li><a href="#personal-training">Personal Training</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info Section -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@shapeXplore.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+    
+            <!-- Social Media Links Section -->
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="Photos/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="Photos/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="Photos/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShapeXplore. All rights reserved.
+                <br>
+                Made with love by Aayush❤️
+            </p>
+        </div>
+    </footer>
+    
+        
+</body>
+
+</html>
