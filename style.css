@@ -96,7 +96,7 @@ nav ul li a:hover {
 
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(Photos/pexels-cottonbro-4753892.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(pexels-cottonbro-4753892.jpg);
     background-size: contain;
     /* background-repeat: no-repeat; */
     background-position: center;
